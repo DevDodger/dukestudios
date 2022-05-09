@@ -76,7 +76,7 @@ a {
 
 /*Remove the property of 100vh, when inserting its content*/
 .container section {
-  height: 108vh;
+  height: 109vh;
   padding: 2rem 0;
 }
 
